@@ -1,0 +1,95 @@
+[
+  {
+    "ContainingType": "AngularApi.Endpoints.PersonEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPersonEndpoints\u003Eb__1_0",
+    "RelativePath": "people",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[AngularApi.Models.Person, AngularApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AngularApi.Endpoints.PersonEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPersonEndpoints\u003Eb__1_2",
+    "RelativePath": "people",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "person",
+        "Type": "AngularApi.Models.Person",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AngularApi.Models.Person",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AngularApi.Endpoints.PersonEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPersonEndpoints\u003Eb__1_3",
+    "RelativePath": "people/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "person",
+        "Type": "AngularApi.Models.Person",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AngularApi.Endpoints.PersonEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPersonEndpoints\u003Eb__1_1",
+    "RelativePath": "people/{name}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AngularApi.Models.Person",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
