@@ -1,4 +1,4 @@
-# Aplicação Angular com API em .NET para Gerenciamento de Pessoas
+# Aplicação Angular com API em .NET para Gerenciamento de Pessoas (em andamento)
 
 ## Descrição
 
